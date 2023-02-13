@@ -16,6 +16,15 @@ body {
     display: flex;
 }
 
+.font-08{
+    font-size: 0.8rem;
+}
+
+.large_container{
+    width: 80%;
+    margin: auto;
+}
+
 .container{
     width: 70%;
     margin: auto;
@@ -46,8 +55,31 @@ body {
     margin-top: 2rem;
 }
 
+.m-top05{
+    margin-top: 0.5rem;
+}
+
+.m-top1{
+    margin-top: 1rem;
+}
+.m-b05{
+    margin-bottom: 0.5rem;
+}
+
 .m-left1{
     margin-left: 1rem;
+}
+
+.m-right05{
+    margin-right: 0.5rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.gray-txt{
+    color: gray;
 }
 /* header */
 
@@ -160,10 +192,24 @@ h1{
 
 /* plans */
 
+.radio{
+    font-size: 0.8rem;
+    margin-top: 4rem;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.month{
+    margin-right: 2rem;
+}
+
 .plans{
     margin-top: 10rem;
 }
 
+h4{
+    font-size: 1.25rem;
+}
 .plans_text{
     width: 100%;
     margin-top: 2rem;
@@ -179,12 +225,12 @@ h1{
 .col_plans{
     width: calc(100% / 3 - 1rem);
     height: 30rem;
-    background-color: aqua;
+    border: 1px solid gray;
 }
 
 .col-12_plans{
     width: 100%;
-    background-color: aqua;
+    border: 1px solid gray;
     margin-top: 1rem;
     height: 10rem;
 }
