@@ -37,7 +37,27 @@ body {
 .m-top5{
     margin-top: 5rem;
 }
+
+.p-top1{
+    padding-top: 0.5rem;
+}
+
+.m-top2{
+    margin-top: 2rem;
+}
+
+.m-left1{
+    margin-left: 1rem;
+}
 /* header */
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
 .left_nav{
     width: 50%;
@@ -76,8 +96,7 @@ body {
     font-size: 0.8rem;
 }
 
-.start{
-    margin-left: 1rem;
+.blue_button{
     padding: 0.5rem 0.75rem;
     font-size: 0.8rem;
     border: none;
@@ -95,24 +114,60 @@ nav a{
 
 .hero{
     background-color: #b4d0e7;
-    height: 30rem;
+    margin-top: 4rem;
+    
 }
 
 .row_hero{
     width: 100%;
     height: 25rem;
-    background-color: yellow;
+}
+
+.left_hero{
+    width: 30%;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.right_hero{
+    width: 70%;
+    position: relative;
+}
+.jumbo{
+    max-width: 100%;
+    position: absolute;
+    margin-top: 4rem;
+}
+
+h1{
+    width: 90%;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.p_hero{
+    font-size: 0.8rem;
+}
+
+.hero_icon{
+    font-size: 3rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
 }
 
 /* main */
 
 /* plans */
 
+.plans{
+    margin-top: 10rem;
+}
+
 .plans_text{
     width: 100%;
-    height: 7rem;
-    background-color: green;
     margin-top: 2rem;
+    font-size: 1.5rem;
 }
 
 .row_plans{

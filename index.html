@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
@@ -14,10 +16,10 @@
     <header id="app-header">
         <nav class="menu_nav flex">
             <div class="left_nav flex">
-                <div class="logo">
+                <div class="logo p-top1">
                     <img id="small_logo" src="./assets/img/logo-small.png" alt="">
                 </div>
-                <div class="left_menu flex">
+                <div class="left_menu p-top1 flex">
                     <ul class="flex">
                         <li> <a href="#">Perché Dropbox</a> </li>
                         <li> <a href="#">Funzioni</a> </li>
@@ -25,24 +27,42 @@
                     </ul>
                 </div>
             </div>
-            <div class="right_nav flex">
-                <div class="right_menu flex">
+            <div class="right_nav flex p-top1">
+                <div class="right_menu p-top1 flex">
                     <ul class="flex">
                         <li> <a href="#">Supporto</a> </li>
                         <li> <a href="#">Contatta l'ufficio vendite</a> </li>
                         <li> <a href="#">Accedi</a> </li>
                     </ul>
-                    <button href="#" class="start">Inizia</button>
+                    <button href="#" class="blue_button m-left1 p-top1">Inizia</button>
                 </div>
             </div>
         </nav>
 
         <section class="hero">
             <div class="container padding-top2-5">
+
+                <h1>Tutto ciò che ti
+                    serve per il
+                    lavoro, in un unico posto</h1>
+
                 <div class="row_hero flex">
-                    <div class="col">
-                        <div class="left_hero"></div>
-                        <div class="right_hero"></div>
+                    <div class="col flex">
+                        <div class="left_hero">
+                            <p class="p_hero">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                            
+                            <button class="blue_button m-top2">
+                                Inizia la tua prova gratuita
+                            </button>
+
+                            <p class="p_hero m-top2">Annulla in qualsiasi momento</p>
+
+                            <i class="fa-solid fa-arrow-down hero_icon"></i>
+
+                        </div>
+                        <div class="right_hero">
+                            <img class="jumbo" src="./assets/img/jumbo.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -53,7 +73,9 @@
     <main id="app-main">
         <section class="plans bg_white">
                 <div class="small_container">
-                    <div class="plans_text"></div>
+                    <div class="plans_text">
+                        <h2>Trova il piano business che fa per te</h2>
+                    </div>
                     <div class="row_plans flex">
                         <div class="col_plans"></div>
                         <div class="col_plans"></div>
