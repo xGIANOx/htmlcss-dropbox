@@ -9,3 +9,27 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* utilities */
+
+.flex{
+    display: flex;
+}
+
+/* header */
+
+.menu_nav{
+    height: 3rem;
+}
+
+.left_nav{
+    width: 50%;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.right_nav{
+    width: 50%;
+    background-color: orange;
+    border: 1px solid black;
+}
