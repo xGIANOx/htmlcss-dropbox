@@ -21,6 +21,11 @@ body {
     margin: auto;
 }
 
+.small_container{
+    width: 60%;
+    margin: auto;
+}
+
 .padding-top2-5{
     padding-top: 2.5rem;
 }
@@ -53,4 +58,37 @@ body {
     width: 100%;
     height: 25rem;
     background-color: yellow;
+}
+
+/* main */
+
+/* plans */
+
+.plans{
+    background-color: white;
+}
+.plans_text{
+    width: 100%;
+    height: 7rem;
+    background-color: green;
+    margin-top: 2rem;
+}
+
+.row_plans{
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.col_plans{
+    width: calc(100% / 3 - 1rem);
+    height: 30rem;
+    background-color: aqua;
+}
+
+.col-12_plans{
+    width: 100%;
+    background-color: aqua;
+    margin-top: 1rem;
+    height: 10rem;
 }
