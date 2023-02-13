@@ -16,6 +16,14 @@ body {
     display: flex;
 }
 
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.padding-top2-5{
+    padding-top: 2.5rem;
+}
 /* header */
 
 .menu_nav{
@@ -32,4 +40,17 @@ body {
     width: 50%;
     background-color: orange;
     border: 1px solid black;
+}
+
+/* heading */
+
+.hero{
+    background-color: #b4d0e7;
+    height: 30rem;
+}
+
+.row_hero{
+    width: 100%;
+    height: 25rem;
+    background-color: yellow;
 }
