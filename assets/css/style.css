@@ -39,20 +39,56 @@ body {
 }
 /* header */
 
-.menu_nav{
-    height: 3rem;
-}
-
 .left_nav{
     width: 50%;
-    background-color: orange;
-    border: 1px solid black;
+    background-color: white;
+    padding: 1rem;
 }
 
 .right_nav{
     width: 50%;
-    background-color: orange;
-    border: 1px solid black;
+    background-color: white;
+    padding: 1rem;
+    justify-content: end;
+}
+
+#small_logo{
+    margin-right: 1rem;
+}
+
+.left_menu > ul{
+    list-style: none;
+    gap: 1rem;
+}
+
+.right_menu > ul{
+    list-style: none;
+    gap: 1rem;
+}
+
+.left_menu{
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.right_menu{
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.start{
+    margin-left: 1rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    border: none;
+    background-color: #0061ff;
+    color: white;
+}
+
+
+nav a{
+    color: #a6a6a6;
+    text-decoration: none;
 }
 
 /* heading */
