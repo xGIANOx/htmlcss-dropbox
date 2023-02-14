@@ -74,6 +74,10 @@ body {
     margin-right: 0.5rem;
 }
 
+.m-b2{
+    margin-bottom: 2rem;
+}
+
 .text-center{
     text-align: center;
 }
@@ -242,7 +246,7 @@ h4{
     width: 100%;
     border: 1px solid gray;
     margin-top: 1rem;
-    height: 10rem;
+    
 }
 
 
@@ -268,6 +272,21 @@ h4{
     height: 20rem;
     background-color: aqua;
     margin-top: 2rem;
+}
+
+.left_col_plans{
+    width: 70%;
+}
+
+.right_col_plans{
+    width: 30%;
+}
+
+#sales_contact{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
 }
 
 .banner_content{
