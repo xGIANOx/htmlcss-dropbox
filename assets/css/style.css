@@ -74,6 +74,10 @@ body {
     margin-left: 1rem;
 }
 
+.m-left2{
+    margin-left: 2rem;
+}
+
 .m-right05{
     margin-right: 0.5rem;
 }
@@ -88,6 +92,16 @@ body {
 
 .gray-txt{
     color: gray;
+}
+
+.a-center{
+    align-items: center;
+}
+.padding5{
+    padding: 5rem 0;
+}
+.width40{
+    width: 40%;
 }
 /* header */
 
@@ -304,16 +318,14 @@ h4{
 
 .banner_content{
     width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-.banner_text{
-    width: 50%;
-}
 
 .col_team{
     width: calc(100% / 3);
-    background-color: aqua;
-    border: 1px solid black;
+    background-color: #f5f5f5;
     aspect-ratio: 1 / 1;
 }
 
@@ -330,9 +342,51 @@ h4{
 .col_logo_team{
     height: calc(100% / 2);
     aspect-ratio: 1 / 1;
-    background-color: yellow;
-    border: 1px solid black;
+    justify-content: center;
 }
+
+
+.designit{
+    background-color: #a2d39b;
+    border: 0.75rem solid #d1e9cd;
+}
+.asu{
+    background-color: #61082b;
+}
+
+.uf{
+    background-color: #0093ce;
+}
+
+#uf_img{
+    height: fit-content;
+}
+
+.topps{
+    background-color: #ff1c1c;
+}
+
+.wbr{
+    background-color: #d5001f;
+}
+
+.hearst{
+    background-color: #b4d0e7;
+}
+
+.lonely{
+    background-color: #0d2481;
+}
+
+.clear{
+    background-color: #ffd830;
+}
+
+.logos{
+    filter: grayscale(1);
+    filter: invert(1);
+}
+
 
 .team_banner_bottom{
     background-color: #b4d0e7;
