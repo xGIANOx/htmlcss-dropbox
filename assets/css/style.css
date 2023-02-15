@@ -123,6 +123,8 @@ body {
 .width40{
     width: 40%;
 }
+
+
 /* header */
 
 nav{
@@ -184,6 +186,21 @@ nav a{
     text-decoration: none;
 }
 
+.menu_nav li:hover::before {
+    content: "";
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #007fff;
+  }
+
+  li{
+    display: inline-block;
+    position: relative;
+  }
+
 /* heading */
 
 .hero{
@@ -219,10 +236,6 @@ h1{
     margin-bottom: 2rem;
 }
 
-.p_hero{
-    font-size: 0.8rem;
-}
-
 .hero_icon{
     font-size: 3rem;
     position: absolute;
@@ -230,6 +243,9 @@ h1{
     left: 0;
 }
 
+.fa-arrow-down{
+    color: black;
+}
 /* main */
 
 /* plans */
@@ -278,6 +294,13 @@ h4{
     margin-right: auto;
 }
 
+#sales_contact{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
+}
+
 .check_blue{
     color: #1065ff;
 }
@@ -289,6 +312,15 @@ h4{
     
 }
 
+.left_col_plans{
+    width: 70%;
+}
+
+.right_col_plans{
+    width: 30%;
+}
+
+/* partner */
 
 .col_partner_left{
     width: 60%;
@@ -318,6 +350,8 @@ h4{
     border: none;
 }  
 
+/* business */
+
 .row_business{
     justify-content: space-between;
     flex-wrap: wrap;
@@ -328,20 +362,7 @@ h4{
     margin-top: 2rem;
 }
 
-.left_col_plans{
-    width: 70%;
-}
-
-.right_col_plans{
-    width: 30%;
-}
-
-#sales_contact{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 2rem;
-}
+/* top banner */
 
 .banner_content{
     width: 100%;
@@ -349,6 +370,7 @@ h4{
     align-items: baseline;
 }
 
+/* team */
 
 .col_team{
     width: calc(100% / 3);
@@ -414,14 +436,22 @@ h4{
     filter: invert(1);
 }
 
+/* bottom banner */
 
 .team_banner_bottom{
     background-color: #b4d0e7;
 }
 
+/* question */
+
 .question_content{
     width: 100%;
     margin-bottom: 10rem;
+}
+
+#bordeaux{
+    color: #60092d;
+    font-size: 1.75rem;
 }
 
 .question{
